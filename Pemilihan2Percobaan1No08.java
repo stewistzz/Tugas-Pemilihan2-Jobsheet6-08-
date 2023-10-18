@@ -9,9 +9,31 @@ public class Pemilihan2Percobaan1No08 {
         System.out.print("Masukkan tahun = ");
         tahun = Input08.nextInt();
 
+        // if ((tahun % 4) == 0) {
+        //     if ((tahun % 100) != 0) 
+        //         System.out.println("tahun kabisat");    
+        // }else {
+        //     System.out.println("Bukan tahun kabisat");
+        // }
+
+
+        // if ((tahun % 4) == 0) {
+        //     if ((tahun % 100) != 0) {
+        //         System.out.println("tahun kabisat"); 
+        //     } else {
+        //         System.out.println("Tahun tersebut bukanlah tahun kabisat");
+        //     }
+                 
+        // }else {
+        //     System.out.println("Bukan tahun kabisat");
+        // }
+
+
         if ((tahun % 4) == 0) {
             if ((tahun % 100) != 0) {
                 System.out.println("tahun kabisat"); 
+            } else if((tahun % 400) == 0) {
+                System.out.println("Merupakan tahun");
             } else {
                 System.out.println("Tahun tersebut bukanlah tahun kabisat");
             }

@@ -29,17 +29,13 @@ public class Pemilihan2Percobaan2No8 {
         // }
 
         if (totalSudut == 180) {
-            if ((sudut1 == 60) || (sudut2 == 60) || (sudut3 == 60)) {
+            if ((sudut1 == 60) && (sudut2 == 60) && (sudut3 == 60)) {
                 System.out.println("sama sisi");
             } else if ((sudut1 == sudut2) || (sudut1 == sudut3) || (sudut2 == sudut3)) {
                 System.out.println("Segitiga sama kaki");
-            }
-            // } else if ((sudut1 == sudut2 && sudut2 == sudut3)) {
-            //     System.out.println();
-            // }
-        } else {
+            } else {
             System.out.println("segitiga sembarang");
-        }
-
+            }
+        } 
     }
 }
