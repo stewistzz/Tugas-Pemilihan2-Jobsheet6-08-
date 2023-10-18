@@ -17,6 +17,7 @@ public class Pemilihan2Percobaan2No8 {
         totalSudut = sudut1 + sudut2 + sudut3;
         System.out.println("total sudut anda segitiga = " + totalSudut);
 
+        
         // if (totalSudut == 180) {
         //     if ((sudut1 == 60) || (sudut2 == 60) || (sudut3 == 60)) {
         //         System.out.println("merupakan segitiga siku-siku");
@@ -27,6 +28,7 @@ public class Pemilihan2Percobaan2No8 {
         // } else {
         //     System.out.println("bukan segitiga");
         // }
+
 
         if (totalSudut == 180) {
             if ((sudut1 == 60) && (sudut2 == 60) && (sudut3 == 60)) {
