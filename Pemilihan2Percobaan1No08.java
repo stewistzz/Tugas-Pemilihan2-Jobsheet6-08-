@@ -23,7 +23,6 @@ public class Pemilihan2Percobaan1No08 {
         //     } else {
         //         System.out.println("Tahun tersebut bukanlah tahun kabisat");
         //     }
-                 
         // }else {
         //     System.out.println("Bukan tahun kabisat");
         // }
@@ -31,15 +30,15 @@ public class Pemilihan2Percobaan1No08 {
 
         if ((tahun % 4) == 0) {
             if ((tahun % 100) != 0) {
-                System.out.println("tahun kabisat"); 
+                System.out.println("Tahun " + tahun + " merupakan 2000tahun kabisat"); 
             } else if((tahun % 400) == 0) {
-                System.out.println("Merupakan tahun");
+                System.out.println("Tahun " + tahun + "  merupakan tahun kabisat");
             } else {
-                System.out.println("Tahun tersebut bukanlah tahun kabisat");
+                System.out.println("Tahun " + tahun + "  bukan merupakan tahun kabisat");
             }
                  
         }else {
-            System.out.println("Bukan tahun kabisat");
+            System.out.println("Tahun "+ tahun + " Bukan tahun kabisat");
         }
     }
 }
